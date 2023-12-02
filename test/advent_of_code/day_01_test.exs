@@ -10,11 +10,10 @@ defmodule AdventOfCode.Day01Test do
     assert result == 142
   end
 
-  @tag :skip
   test "part2" do
-    input = nil
+    input = [["two", "1", "nine"], ["eight", "two", "three"], ["one", "2", "three"], ["two", "one", "3", "four"], ["4", "nine", "eight", "seven", "2"], ["one", "eight", "2", "3", "4"], ["7", "six"]]
     result = part2(input)
 
-    assert result
+    assert result == 281
   end
 end
